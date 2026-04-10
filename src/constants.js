@@ -11,13 +11,14 @@ import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
 import cLogo from "./assets/tech_logo/c.png";
 // Experience Section Logo's
-import tatvasoftLogo from "./assets/company_logo/tatvasoft.png";
+import bytesLogo from "./assets/company_logo/bytes.jpg";
 // Education Section Logo's
 import ldrpLogo from "./assets/education_logo/ldrp.jpg";
 import faithLogo from "./assets/education_logo/faith.jpg"
 // Project Section Logo's
 import bidLogo from "./assets/work_logo/bid.jpeg"
 import cropLogo from "./assets/work_logo/crop.jpg"
+import kidneyLogo from "./assets/work_logo/kidney.jpg"
 export const SkillsInfo = [
   {
     title: "Frontend",
@@ -51,11 +52,11 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: tatvasoftLogo,
-    role: "Intern",
-    company: "Tatvasoft",
-    date: "May 2025 - June 2025",
-    desc: "I worked as a Frontend Intern for one month, gaining hands-on experience in building responsive and user-friendly web interfaces. During this time, I worked with HTML, CSS, JavaScript, and React to develop components and enhance the overall user experience. This internship helped me strengthen my understanding of frontend development best practices and modern web technologies.",
+    img: bytesLogo,
+    role: "Intern Developer",
+    company: "Bytesved Technologies",
+    date: "Dec 2025 - Feb 2026",
+    desc: "I worked as a Frontend Intern for three month, gaining hands-on experience in building responsive and user-friendly web interfaces. During this time, I worked with HTML, CSS, JavaScript, and React to develop components and enhance the overall user experience. This internship helped me strengthen my understanding of frontend development best practices and modern web technologies.",
     skills: ["HTML", "CSS", "JavaScript", "ReactJS"],
   },
 ];
@@ -65,7 +66,7 @@ export const education = [
     img: ldrpLogo,
     school: "LDRP INSTITUE OF TECHNOLOGY & RESEARCH GANDHINAGAR",
     date: "August 2022 - June 2026",
-    grade: "7.33 CPI",
+    grade: "7.36 CPI",
     degree: "Bachelor of Engineering in Information Technology",
     desc: "Currently pursuing my Bachelor's degree in Information Technology. Gaining a strong foundation in programming, data structures, algorithms, OOP, DBMS, and web development. Actively involved in workshops and coding events to enhance practical skills and industry readiness."
   },
@@ -97,7 +98,7 @@ export const projects = [
     description:
       "A full-stack auction web application where users can browse products, place bids, and track winning bids. Built with React 18 frontend, Redux Toolkit, and Tailwind CSS for responsive UI.",
     image: bidLogo,
-    tags: ["HTML", "CSS", "JavaScript", "ReactJS", "NodeJS","ExpressJS","MongoDB","API"],
+    tags: ["HTML", "CSS", "JavaScript", "ReactJS","Tailwind CSS", "NodeJS","ExpressJS","MongoDB"],
     github:
       "https://github.com/Jayrajsinhzala1101/Bidworld-Online-Auction-Bidding-System"
   },
@@ -108,12 +109,33 @@ export const projects = [
       "A full-stack web application for detecting crop diseases using machine learning, built with Django REST API backend and React frontend.",
     image: cropLogo,
     tags: [
-      "ReactJS",
-      "Django",
       "HTML",
       "CSS",
-      "JS",
+      "JavaScript",
+      "ReactJS",
+      "Django",
+      "Tailwind CSS",
+      "TensorFlow",
+      "OpenCV",
     ],
     github: "https://github.com/Jayrajsinhzala1101/CropGuard-AI-Crop-Disease-Detection"
+  },
+  {
+    id: 2,
+    title: "Kidney Disease Detection System",
+    description:
+      "A full-stack web application for detecting crop diseases using machine learning, built with Django REST API backend and React frontend.",
+    image: kidneyLogo,
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Django",
+      "Tailwind CSS",
+      "TensorFlow",
+      "OpenCV",
+    ],
+    github: "https://github.com/Jayrajsinhzala1101/Kidney-Stone-Detection-System"
   },
 ];

@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
-import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.jpg';
+import React from "react";
+import ReactTypingEffect from "react-typing-effect";
+import Tilt from "react-parallax-tilt";
+import profileImage from "../../assets/profile2.jpg";
 
 const About = () => {
   return (
@@ -25,10 +25,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Frontend Developer',
-                'ReactJS Developer',
-                'UI/UX Designer',
-                'Coder',
+                "Frontend Developer",
+                "ReactJS Developer",
+                "UI/UX Designer",
+                "Coder",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -41,22 +41,26 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          I worked as a Frontend Intern for one month, gaining hands-on experience in building responsive and user-friendly web interfaces. During this time, I worked with HTML, CSS, JavaScript, and React to develop components and enhance the overall user experience. This internship helped me strengthen my understanding of frontend development best practices and modern web technologies.
+            I worked as a Frontend Intern for one month, gaining hands-on
+            experience in building responsive and user-friendly web interfaces.
+            During this time, I worked with HTML, CSS, JavaScript, and React to
+            develop components and enhance the overall user experience. This
+            internship helped me strengthen my understanding of frontend
+            development best practices and modern web technologies.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1WYL6Nyw34XjtczvYkGqjWjaa0z2q8lzP/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1zMt7E8u8MnCm1D_6lEuyE3mnQiOKr-hE/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: "linear-gradient(90deg, #8245ec, #a855f7)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
             DOWNLOAD CV
           </a>
-          
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
