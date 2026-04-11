@@ -100,7 +100,8 @@ export const projects = [
     image: bidLogo,
     tags: ["HTML", "CSS", "JavaScript", "ReactJS","Tailwind CSS", "NodeJS","ExpressJS","MongoDB"],
     github:
-      "https://github.com/Jayrajsinhzala1101/Bidworld-Online-Auction-Bidding-System"
+      "https://github.com/Jayrajsinhzala1101/Bidworld-Online-Auction-Bidding-System",
+      webapp: "https://bidworld-online-auction-bidding-sys.vercel.app/"
   },
   {
     id: 1,
@@ -118,7 +119,8 @@ export const projects = [
       "TensorFlow",
       "OpenCV",
     ],
-    github: "https://github.com/Jayrajsinhzala1101/CropGuard-AI-Crop-Disease-Detection"
+    github: "https://github.com/Jayrajsinhzala1101/CropGuard-AI-Crop-Disease-Detection",
+    webapp:"https://crop-guard-ai-crop-disease-detectio.vercel.app/"
   },
   {
     id: 2,
@@ -136,6 +138,7 @@ export const projects = [
       "TensorFlow",
       "OpenCV",
     ],
-    github: "https://github.com/Jayrajsinhzala1101/Kidney-Stone-Detection-System"
+    github: "https://github.com/Jayrajsinhzala1101/Kidney-Stone-Detection-System",
+    webapp:"https://kidney-stone-detection-system.vercel.app/"
   },
 ];
